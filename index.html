@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/fav.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Restaraunt</title>
+</head>
+<body>
+    <div class="banner">
+        <p>We're open and available for takeaway & delivery. <a href="order.html">Order Now</a></p>
+    </div>
+    
+    <nav>
+        <div class="nav_center">
+            <div class="nav_icon">
+                <a href="index.html"><img src="assets/Logo.svg" alt="Logo"></a>
+            </div>
+            <div class="nav_buttons">
+                 <ul>
+                    <li class="nav_item nav_active"><a href="index.html">home</a></li>
+                    <li class="nav_item"><a href="order.html">order</a></li>
+                    <li class="nav_item"><a href="company.html">company</a></li>
+                    <li class="nav_item"><a href="faq.html">FAQ</a></li>
+                    <li class="nav_item"><a href="mailto:datozhgenti1998@gmailcom">contact</a></li>
+                    <li class="nav_item">
+                        <button type="button" class="cart_btn">
+                            <i class="fa fa-cart-arrow-down"></i>
+                            <span>0</span>
+                        </button>
+                        <button type="button" class="burger_btn">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div class="responsive_nav">
+                  <div class="nav_buttons responsive_nav_buttons">
+                    <ul>
+                       <li class="nav_item nav_active"><a href="index.html">home</a></li>
+                       <li class="nav_item"><a href="order.html">order</a></li>
+                       <li class="nav_item"><a href="company.html">company</a></li>
+                       <li class="nav_item"><a href="faq.html">FAQ</a></li>
+                       <li class="nav_item"><a href="mailto:datozhgenti1998@gmailcom">contact</a></li>
+                    </ul>
+                  </div>  
+            </div>
+            <div class="cart">
+                 <div class="cart_head">
+                      <h4 class="cart_header">Your Order</h4>
+                      <a href="#close" class="close_btn"><i class="fa fa-close"></i></a>
+                 </div>
+                 <div class="cart_content_area">
+                      <div class="cart_content">
+                          <p class="cart_default_text">We couldn't find any items in your cart.</p>
+                          <a href="order.html" class="wavebtn cart_wavebtn">Start an Order</a>
+                      </div>
+                      <!-- <div class="cart_item">
+                           <div class="cart_item_img_area">
+                                <img class="cart_item_img" src="assets/Burger03.png" alt="">
+                            </div>
+                            <div class="cart_item_text">
+                                <p class="cart_item_name">Burger Waldo</p>
+                                <p class="cart_item_price">$ 10.00 USD</p>
+                                <a href="#" class="cart_item_removeBtn">Remove</a>
+                            </div>
+                          
+                           <div class="cartquantity cart_item_quantity">
+                               <input min="1" type="number" value="1"   name="quantity" class="quantity">
+                          </div>
+                     </div> -->
+                 </div>
+                 <div class="cart_footer">
+                    <div class="total_price_area">
+                         <p class="ans" id="subtotal">Subtotal</p>
+                         <p class="total_price"></p>
+                    </div>
+                    <div class="checkout_button_area">
+                           <button class="checkout_button">Continue to Checkout</button>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="darken"></div>
+
+    <header>
+        <div class="header_content centered">
+           <div class="header_text text_align">
+               <h1>
+                   Beautiful food & takeaway,<span>delivered</span> to your door.
+               </h1>
+               <p class="text">
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
+              </p>
+              
+              <a href="order.html" class="wavebtn">Place an Order</a>
+            <div class="header_bottom">
+                <img src="assets/trustpilot-logo.svg" alt="trustpilot-logo" style="margin-bottom: 10px;">
+                <div class="review" style="font-size: 16px;">
+                    <span style="color:#35b8be;">4.8 out of 5</span> based on 2000+ reviews
+                </div>
+            </div>
+            </div>
+           <div class="header_picture">
+                <img src="assets/Hero Image.png" alt="Hero Image" class="right_pic" style="width: 100%;">
+           </div>
+        </div>
+    </header>
+    
+    
+    <section class="fresh">
+        <div class="content_fresh centered">
+             <div class="text_fresh text_align">
+                 <h2 style="margin: 0;">The home of fresh products</h2>
+                 <p class="text">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever 
+                    since the 1500.
+                </p>
+                <a href="company.html" class="wavebtn">Learn about us</a>
+             </div>
+             <div class="picture_fresh">
+                 <img src="assets/Group 33.png" alt="Girl eating" class="right_pic" style="width: 100%;">
+             </div>
+             
+        </div>
+    </section>
+    
+    
+    <section class="work">
+           <h2 style="text-align: center;">How it works</h2>
+          <div class="content_work">
+               <div class="work_card">
+                  <div class="work_picture">
+                       <img src="assets/Step01.png" alt="">
+                  </div>
+                  <div class="work_text">
+                      <h5>Adapt your menu items</h5>
+                      <p class="text">
+                        Easily adapt your menu using the webflow 
+                        CMS and allow customers to browse your items.
+                      </p>
+                  </div>
+               </div>
+               <div class="line_container">
+                  <div class="line"></div>
+               </div>
+               <div class="work_card">
+                <div class="work_picture">
+                     <img src="assets/Step02.png" alt="">
+                </div>
+                <div class="work_text">
+                    <h5>Accept online orders & takeout</h5>
+                    <p class="text">
+                        Let your customers order and pay via the 
+                        powerful ecommerce system, or simple let 
+                        them call your store.
+                    </p>
+                </div>
+             </div>
+             <div class="line_container">
+                <div class="line"></div>
+             </div>
+             <div class="work_card">
+                <div class="work_picture">
+                     <img src="assets/Step03.png" alt="">
+                </div>
+                <div class="work_text">
+                    <h5>Manage delivery or takeout</h5>
+                    <p class="text">
+                        Manage your own logistics and take 
+                        orders simply through the ecommerce system.
+                    </p>
+                </div>
+             </div>
+          </div>
+    </section>
+    
+    
+    <section class="menu">
+         <h2 style="text-align: center;">Browse our menu</h2>
+         <p style="text-align: center;" class="text">
+            Use our menu to place an order online, 
+            or <a href="#phone" style="color: #35b8be;">phone</a> our store to
+            place a pickup order. Fast and fresh food.
+         </p>
+         <div class="menu_filter">
+             <button class="filter_btn active">Burgers</button>
+             <button class="filter_btn">Sides</button>
+             <button class="filter_btn">Drinks</button>
+         </div>
+         <div class="menu_items">
+              <div class="menu_item">
+                 <div class="menu_picture">
+                      <img src="assets/Burger03.png" alt="">
+                 </div>
+               <div class="menu_text">
+                     <div class="priceName">
+                         <h6 style="margin: 0;">Burger</h6>
+                         <p style="margin: 0;">$ 9.20 USD</p>
+                     </div>
+                     <div class="item_description">
+                         <p style="margin: 0;color: #546285;">
+                            Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry.
+                         </p>
+                    </div>
+                    <div class="cartquantity">
+                         <input min="1" type="number" value="1"  name="quantity" id="quantity">
+                         <button>Add To Cart</button>
+                    </div>
+              </div>
+            </div>
+            <div class="menu_item">
+                <div class="menu_picture">
+                     <img src="assets/Burger03.png" alt="">
+                </div>
+              <div class="menu_text">
+                    <div class="priceName">
+                        <h6 style="margin: 0;">Burger Dreams</h6>
+                        <p style="margin: 0;">$ 9.20 USD</p>
+                    </div>
+                    <div class="item_description">
+                        <p style="margin: 0;color: #546285;">
+                           Lorem Ipsum is simply dummy text of the 
+                           printing and typesetting industry.
+                        </p>
+                   </div>
+                   <div class="cartquantity">
+                        <input min="1" type="number" value="1"  name="quantity" id="quantity">
+                        <button>Add To Cart</button>
+                   </div>
+             </div>
+           </div>
+            <div class="menu_item">
+                <div class="menu_picture">
+                     <img src="assets/Burger03.png" alt="">
+                </div>
+              <div class="menu_text">
+                    <div class="priceName">
+                        <h6 style="margin: 0;">Burger Dreams</h6>
+                        <p style="margin: 0;">$ 9.20 USD</p>
+                    </div>
+                    <div class="item_description">
+                        <p style="margin: 0;color: #546285;">
+                           Lorem Ipsum is simply dummy text of the 
+                           printing and typesetting industry.
+                        </p>
+                   </div>
+                   <div class="cartquantity">
+                        <input min="1" type="number" value="1"  name="quantity" id="quantity">
+                        <button>Add To Cart</button>
+                   </div>
+             </div>
+           </div>
+           <div class="menu_item">
+                <div class="menu_picture">
+                     <img src="assets/Burger03.png" alt="">
+                </div>
+              <div class="menu_text">
+                    <div class="priceName">
+                        <h6 style="margin: 0;">Burger Dreams</h6>
+                        <p style="margin: 0;">$ 9.20 USD</p>
+                    </div>
+                    <div class="item_description">
+                        <p style="margin: 0;color: #546285;">
+                           Lorem Ipsum is simply dummy text of the 
+                           printing and typesetting industry.
+                        </p>
+                   </div>
+                   <div class="cartquantity">
+                        <input min="1" type="number" value="1"  name="quantity" id="quantity">
+                        <button>Add To Cart</button>
+                   </div>
+             </div>
+           </div>
+           <div class="menu_item">
+                <div class="menu_picture">
+                     <img src="assets/Burger03.png" alt="">
+                </div>
+              <div class="menu_text">
+                    <div class="priceName">
+                        <h6 style="margin: 0;">Burger Dreams</h6>
+                        <p style="margin: 0;">$ 9.20 USD</p>
+                    </div>
+                    <div class="item_description">
+                        <p style="margin: 0;color: #546285;">
+                           Lorem Ipsum is simply dummy text of the 
+                           printing and typesetting industry.
+                        </p>
+                   </div>
+                   <div class="cartquantity">
+                        <input min="1" type="number" value="1"  name="quantity" id="quantity">
+                        <button>Add To Cart</button>
+                   </div>
+             </div>
+           </div>
+              <div class="menu_item">
+                <div class="menu_picture">
+                     <img src="assets/Burger03.png" alt="">
+                </div>
+              <div class="menu_text">
+                    <div class="priceName">
+                        <h6 style="margin: 0;">Burger Dreams</h6>
+                        <p style="margin: 0;">$ 9.20 USD</p>
+                    </div>
+                    <div class="item_description">
+                        <p style="margin: 0;color: #546285;">
+                           Lorem Ipsum is simply dummy text of the 
+                           printing and typesetting industry.
+                        </p>
+                   </div>
+                   <div class="cartquantity">
+                        <input min="1" type="number" value="1"  name="quantity" id="quantity">
+                        <button>Add To Cart</button>
+                   </div>
+             </div>
+           </div>
+         </div>
+         <div class="seeFullbtn">
+                <a href="order.html" class="wavebtn">See Full Menu</a>
+         </div>
+    </section>
+    
+    
+    <section class="online">
+           <div class="online_content centered">
+                 <div class="online_picture">
+                    <img src="assets/Phones.png" alt="">
+                 </div>
+                 <div class="online_text text_align">
+                     <h2 style="margin: 0;">Order online with our simple checkout.</h2>
+                     <p class="text">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500.
+                     </p>
+                     <a href="faq.html" class="wavebtn">See our FAQ</a>
+                 </div>
+           </div>
+    </section>
+
+
+    <section class="contact">
+        <div class="contact_content centered">
+            <div class="contact_text text_align">
+                <h2>Call our store and takeaway when it suits you best.</h2>
+                <p class="text">
+                    Lorem Ipsum is simply dummy text of the printing and 
+                    typesetting industry. Lorem Ipsum has been the industry's 
+                    standard dummy text ever since the 1500.
+                </p>
+                <a href="tel:+61 233 2333 44444444444" class="wavebtn">Ph. +61 233 2333</a>
+            </div>
+            <div class="contact_picture">
+                <img src="assets/FoodTakeaway.png" alt="FoodTakeaway.png" class="right_pic" style="width: 100%;">
+            </div>
+        </div>
+    </section>
+
+    <section class="support">
+           <div class="support_picture"></div>
+           <div class="support_text">
+                <h1 style="color: #fff;">
+                    <span style="color: #1b9097;">Support</span> good food
+                    and local business.
+                </h1>
+                <a href="order.html" class="wavebtn">Order Now</a>
+           </div>
+    </section>
+
+    <footer>
+        <div class="footer_content">
+            <div class="f_top_content">
+                <div class="f_top_left_content">
+                    <img src="assets/Logo.svg" alt="logo" class="footer_logo">
+                    <p class="text">
+                       Takeaway & Delivery template
+                       for small - medium businesses.
+                    </p>
+                </div>
+                <div class="f_top_right_content">
+                     <div class="column">
+                         <h6 class="list_header">COMPANY</h6>
+                         <ul class="footer_list" >
+                             <li class="list_item">
+                                 <a href="index.html" class="list_item">Home</a>
+                             </li>
+                             <li class="list_item">
+                                <a href="order.html" class="list_item">Order</a>
+                            </li>
+                            <li class="list_item">
+                                <a href="faq.html" class="list_item">FAQ</a>
+                            </li>
+                            <li class="list_item">
+                                <a href="mailto:datozhgenti1998@gmail.com" class="list_item">Contact</a>
+                            </li>
+                         </ul>
+                     </div>
+                     <div class="column">
+                        <h6 class="list_header">TEMPLATE</h6>
+                        <ul class="footer_list" >
+                            <li class="list_item">
+                                <a href="index.html" class="list_item">Style Guide</a>
+                            </li>
+                            <li class="list_item">
+                               <a href="#order" class="list_item">Changelog</a>
+                           </li>
+                           <li class="list_item">
+                               <a href="#faq" class="list_item">Licence</a>
+                           </li>
+                           <li class="list_item">
+                               <a href="#contact" class="list_item">Webflow&nbsp;University</a>
+                           </li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h6 class="list_header">FLOWBASE</h6>
+                        <ul class="footer_list" >
+                            <li class="list_item">
+                                <a href="#flowbase" class="list_item">More Cloneables</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="f_bottom_content">
+                <div class="f_bottom_left_content">
+                    <p class="f_bottom_text">
+                        Built by <a href="#flowbase">Flowbase</a> 
+                        Flowbase  · Powered by <a href="#webflow">Webflow</a>
+                    </p>
+                </div>
+                <div class="f_bottom_icons">
+                     <div class="f_icon_container">
+                         <img  src="assets/social-instagram.svg" style="width: 100%;" alt="instagram icon">
+                     </div>
+                     <div class="f_icon_container">
+                        <img  src="assets/social-twitter.svg" style="width: 100%;" alt="twitter icon">
+                    </div>
+                    <div class="f_icon_container">
+                        <img  src="assets/social-youtube.svg" style="width: 100%;" alt="youtube icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    
+
+
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
